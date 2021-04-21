@@ -8,5 +8,7 @@ make
 gsed -i 's/NODES=6/NODES=12/g' utils/create-cluster/create-cluster
 cd utils/create-cluster/
 ./create-cluster start
+./create-cluster create
 ./create-cluster stop
+./create-cluster clean
 cd ../..
