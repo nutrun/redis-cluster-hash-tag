@@ -1,6 +1,6 @@
 # Optimise Redis cluster mutli key commands with hash tags
 
-Setup a twelve (six master / six slave) node Redis cluster
+Setup a twelve node (six master / six slave) Redis cluster
 
 ```
 ./setup-redis-cluster.sh
@@ -24,7 +24,7 @@ Measure the number of commands issued and crude execution time when calculating 
 ./measure.sh get.py
 ```
 
-Measure the number of commands issued and crude execution time when calculating Germany's population by fetching its cities' using hash tags and one `MGET` command
+Measure the number of commands issued and crude execution time when calculating Germany's population by fetching its cities' populations using hash tags and one `MGET` command
 
 ```
 ./measure.sh mget.py
