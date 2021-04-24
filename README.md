@@ -30,4 +30,7 @@ Measure the number of commands issued and crude execution time when calculating 
 ./measure.sh mget.py
 ```
 
+## Python dependencies
+[redis-py-cluster](https://redis-py-cluster.readthedocs.io/en/master/)
+
 `worldcities.csv` data from the [World Cities Database](https://simplemaps.com/data/world-cities)
