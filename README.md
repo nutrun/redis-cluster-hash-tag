@@ -1,4 +1,4 @@
-# Optimise Redis cluster mutli key commands with hash tags
+# Optimise Redis cluster mutli-key commands with hash tags
 
 ## Python dependencies
 [redis-py-cluster](https://redis-py-cluster.readthedocs.io/en/master/)
