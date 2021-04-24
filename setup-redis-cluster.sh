@@ -1,10 +1,10 @@
 #!/bin/sh
 
-rm -rf redis-6.2.2/
-wget http://download.redis.io/releases/redis-6.2.2.tar.gz
-tar xzf redis-6.2.2.tar.gz
-rm redis-6.2.2.tar.gz
-cd redis-6.2.2/
+rm -rf redis-stable/
+wget http://download.redis.io/releases/redis-stable.tar.gz
+tar xzf redis-stable.tar.gz
+rm redis-stable.tar.gz
+cd redis-stable/
 make
 cd utils/create-cluster/
 awk '{sub(/NODES=6/,"NODES=12"); print}' create-cluster > create-cluster.tmp
