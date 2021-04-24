@@ -1,4 +1,6 @@
-# Optimise Redis cluster mutli-key commands with hash tags
+# Redis Cluster mutli-key command optimisation with hash tags
+
+This is the supporting code to this [article](https://nutrun.com/articles/redis-cluster-hash-tag.html).
 
 ## Python dependencies
 [redis-py-cluster](https://redis-py-cluster.readthedocs.io/en/master/)
